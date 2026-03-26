@@ -1,0 +1,62 @@
+dataset:
+  value: CUB
+num_class:
+  value: 200
+num_attribute:
+  value: 312
+img_size:
+  value: 448
+resnet_region:
+  value: 196
+dim_f_clip:
+  value: 768
+dim_v_clip:
+  value: 768
+device:
+  value: cuda:0
+batch_size:
+  value: 50
+epochs:
+  value: 200
+use_unzip:
+  value: True
+random_seed:
+  value: 5
+lambda_cal:
+  value: 0.01
+lambda_reg:
+  value: 0.3
+lambda_con:
+  value: 0.8
+normalize_V:
+  value: False
+tf_SAtt:
+  value: True
+tf_ec_layer:
+  value: 1
+tf_dc_layer:
+  value: 1
+tf_heads:
+#  value: 1
+  value: 4
+
+
+tf_clip_common_dim:
+  value: 300
+
+tf_aux_embed:
+  value: True
+tf_dim_feedforward:
+  value: 512
+tf_dropout:
+  value: 0.4
+
+
+
+
+model_path:
+  value: './save_model/CUB_best_model_zsl.pth'
+data_path:
+  value: '.'
+output_path:
+  value: './Visualizations/images/CUB_full.png'

@@ -1,0 +1,66 @@
+dataset:
+  value: AWA2
+num_class:
+  value: 50
+num_attribute:
+  value: 85
+img_size:
+  value: 448
+resnet_region:
+  value: 196
+
+dim_f_clip:
+  value: 768
+dim_v_clip:
+  value: 768
+device:
+  value: cuda:0
+batch_size:
+  value: 50
+epochs:
+  value: 200
+#  value: 600
+use_unzip:
+  value: True
+random_seed:
+  value: 17
+#lambda_cal:
+#  value: 2
+#lambda_reg:
+#  value: 0.0005
+#lambda_con:
+#  value: 0.05
+
+lambda_cal:
+  value: 0.1
+lambda_reg:
+  value: 0.5
+lambda_con:
+  value: 0.8
+
+normalize_V:
+  value: True
+tf_SAtt:
+  value: True
+tf_ec_layer:
+  value: 1
+tf_dc_layer:
+  value: 1
+tf_heads:
+  value: 1
+tf_clip_common_dim:
+  value: 300
+tf_aux_embed:
+  value: True
+tf_dim_feedforward:
+  value: 512
+tf_dropout:
+  value: 0.5
+
+
+model_path:
+  value: './save_model/AWA2_best_model_zsl.pth'
+data_path:
+  value: '.'
+output_path:
+  value: './Visualizations/images/AWA2_best_unseen.png'
