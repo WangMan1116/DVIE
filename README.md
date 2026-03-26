@@ -43,6 +43,6 @@ Train:
 
 
 ##  Contact
-If you have any questions about codes, please don't hesitate to contact us by gchenshiming@gmail.com or hoongzm@gmail.com.
+If you have any questions about codes, please don't hesitate to contact us by wangman395@gmail.com.
 
 
